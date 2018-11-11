@@ -1,1 +1,27 @@
 // Specific CSS for your home-page
+body {
+  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://www.lavantgardiste.com/13517-thickbox_default/verre-a-cocktail-ananas.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 15%;
+}
+
+.container {
+  margin-top: 65px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  padding-bottom: 15px;
+  margin-top: 70px;
+}
+
+.btn.btn-primary.danger {
+  background-color: blue;
+  position: absolute;
+  top: 115%;
+  left: 14%;
+}
